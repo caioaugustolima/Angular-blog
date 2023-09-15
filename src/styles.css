@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #111; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: 'Segoe UI';
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-image {
+  background-image: url('https://wallpapersmug.com/download/1920x1080/920758/abstract-dark-red-4k.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150%;
+}
+
+@media screen and (max-width: 767px) {
+  .bg-image {   
+    height: 330%;
+  }
+}

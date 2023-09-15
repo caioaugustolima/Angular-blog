@@ -1,0 +1,20 @@
+.container__menu-bar > ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container__menu-bar > ul > li {
+  margin: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__menu-bar > hr{
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
